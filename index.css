@@ -1,0 +1,30 @@
+body{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    font-family: "Jura";
+    font-weight: bold;
+}
+
+main{
+    width: 270px;
+    height: 630px;
+    background-color: #F7FBFF;
+    padding: 20px;
+    border-radius: 13px;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    font-size: 10PX;
+}
+
+.nav-shadow{
+    background-color:aquamarine;
+    padding: 4px 15px 4px 15px;
+    border-radius: 13px;
+    box-shadow: 7px 1px 7px rgb(219, 219, 219);
+}
